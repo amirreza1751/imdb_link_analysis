@@ -122,7 +122,7 @@ print(number_of_nodes)
 """<h3>Showing most important nodes:</h3>
 
 """
-
+# Three approaches are defiend here to compare the PageRanks.
 graphframes_pagerank_results.vertices.orderBy("pagerank", ascending=False).show(20)
 
 """<h3>Least important nodes:</h3>"""
