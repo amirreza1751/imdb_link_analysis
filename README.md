@@ -16,10 +16,10 @@
 * [Methodology](#Methodology)
 
 ## Introduction:
-*In this task Algorithm for massive datasets are used to rank the the Imdb moives. 
-*It is a big Dataset, and three diffenet PageRank Algorithms are used to rank the most important movies,the results of the three algorithms are compared. 
+* In this task Algorithm for massive datasets are used to rank the the Imdb moives. 
+* It is a big Dataset, and three diffenet PageRank Algorithms are used to rank the most important movies,the results of the three algorithms are compared. 
 ## Dataset Description
-*IMDb is a famous name in the movie Industry. On its website, it is possible to retrieve a wide range
+* IMDb is a famous name in the movie Industry. On its website, it is possible to retrieve a wide range
 of information about movies. In this analysis, we use the IMDb dataset, which has been realized
 based on IMDb’s non-commercial licensing. The Dataset has been published on the Kaggle
 website. The dataset is in the category of large datasets. It contains sub-datasets which are
@@ -44,5 +44,20 @@ The title.basics dataset has 9202163 rows. The data is read during the execution
 the Kaggle API. The data is also updated weekly.More than 75.4 percent of the data is composed of TV Episodes. The second rank is for short
 movies with 9.6 percent, and the third rank is for movies with 6.7 percent. The other types such as
 videos, tv movies are about 8 percent of the whole dataset.
-## Technologies
+## Dataset Preprocessing
+* In order to implement the algorithm, firstly, it is needed to make the nodes of the graph. The first map function is implemented, and each record of the file title_basics is reduced to just two columns which are tconst and titleType. The created variable is named nodes, and the output is filtered by selecting titleType= movie. The total number of rows that are related to movies is 620463. In the second map function, the RDD node is limited to just the Tconst columns.
+## The Considered Algorithms and Their Implementations
+The PageRank algorithm is a general concept, and there are different approaches to implementing it,
+and these different approaches can produce different results.
+One large category of PageRank algorithms is based on probability. In other words, the result of the
+probability-based algorithm is a probability distribution, and a probability is assigned to each node.
+There is also another variant of PageRank Algorithm generating float numbers that can be higher
+than 1 such as 38.28. It is important to mention that the first PageRank Algorithm which was
+proposed by Larry Page and Sergey Brin was based on this approach. Therefore, it is called the
+Historic Approach in this paper.
+It is important to consider that two parameters can influence the finishing of the PageRank
+Algorithms. These two parameters are the number of iterations and the number of Tolerances.
+In this paper, three different PageRank Algorithms are implemented, and their results are
+compared.
+## Experiment Description
 
