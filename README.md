@@ -11,7 +11,7 @@
 
 ## Table of contents
 * [Introduction](#Introduction)
-* [RDataset Description](#Dataset Description)
+* [Dataset Description](#Dataset Description)
 * [The Considered Algorithms and Their Implementations](#The Considered Algorithms and Their Implementations)
 * [Experiment Description](#Experiment Description)
 * [How The Proposed Solution Scales Up With Data Size](#How The Proposed Solution Scales Up With Data Size)
