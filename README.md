@@ -11,13 +11,14 @@
 
 ## Table of contents
 * [Introduction](#Introduction)
-* [Technologies](#technologies)
-* [Repository_Contents](#Repository_Contents)
-* [Methodology](#Methodology)
+* [RDataset Description](#Dataset Description)
+* [The Considered Algorithms and Their Implementations](#The Considered Algorithms and Their Implementations)
+* [Experiment Description](#Experiment Description)
+* [How The Proposed Solution Scales Up With Data Size](#How The Proposed Solution Scales Up With Data Size)
 
-## Introduction:
+## Introduction
 * In this task Algorithm for massive datasets are used to rank the the Imdb moives. 
-* It is a big Dataset, and three diffenet PageRank Algorithms are used to rank the most important movies,the results of the three algorithms are compared. 
+* It is a big Dataset, and three diffenet PageRank Algorithms are used to rank the most important movies,the results of the three algorithms are compared.
 ## Dataset Description
 * IMDb is a famous name in the movie Industry. On its website, it is possible to retrieve a wide range
 of information about movies. In this analysis, we use the IMDb dataset, which has been realized
