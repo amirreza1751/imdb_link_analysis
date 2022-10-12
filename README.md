@@ -24,10 +24,7 @@
 * Apache Spark, Python, and the Libraries such as NumPy and Pandas are used to do the task. 
 
 ## Dataset Description
-* IMDb is a famous name in the movie Industry. On its website, it is possible to retrieve a wide range
-of information about movies. In this analysis, we use the IMDb dataset, which has been realized
-based on IMDb’s non-commercial licensing. The Dataset has been published on the Kaggle
-website. The dataset is in the category of large datasets.
+* IMDb is a famous name in the movie Industry. On its website, it is possible to retrieve a wide range of information about movies. In this analysis, we use the IMDb dataset, which has been realized based on IMDb’s non-commercial licensing. The Dataset has been published on the Kaggle website. The dataset is in the category of large datasets.
 
 ## The Considered Algorithms
-* Three diffenet PageRank Algorithms are used to rank movies,the results of the three algorithms are compared. The dataset updates weekly, and the code downloads the Dataset. The links to the IPython notebook of the code are located on the repository. The paper in the repository explains the details fo the task. 
+* Three different PageRank Algorithms are used to rank movies, the results of the three algorithms are compared. The dataset updates weekly, and the code downloads the Dataset. The links to the IPython notebook of the code are located in the repository. The paper in the repository explains the details of the task.
