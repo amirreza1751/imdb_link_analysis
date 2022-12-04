@@ -1,4 +1,4 @@
-# Algorithms_For_Massive_Datasets
+# Implementing Big Data PageRank Algorithm Using ApacheSpark 
 
 <h3> Link to kaggle notebook</h3>
 <a href="https://www.kaggle.com/code/amirrezadashtigenave/imdblinkanalysis"> kaggle notebook </a>
